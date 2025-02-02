@@ -8,6 +8,18 @@
     --home-background: #00d700;
     --home-text-color: #c1ff72;
     --home-text-color2: #f7fdf3;
+    --melhores-taxas-background: #00af55;
+    --borda-descricao-maquininha: #00d700;
+    --melhores-taxas-background: #eff4f8;
+    --background-taxa-promocional: #00af55;
+    --background-div-right: #028043;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -37,10 +49,9 @@ header {
 
 #home {
     background-color: var(--home-background);
-    margin: 0;
     text-align: center;
     gap: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 #home h1 {
@@ -54,4 +65,44 @@ header {
 
 #home button{
     width: 200px
+}
+
+#melhores-taxas {
+    background-color: var(--melhores-taxas-background);
+}
+
+.melhores-taxas-h1{
+    background-color: var(--melhores-taxas-background);
+}
+
+.vantagens img{
+    width: 70px;
+}
+
+.taxa-promocional {
+    background-color: var(--background-taxa-promocional);
+    border: 1px solid var(--borda-descricao-maquininha);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container-maquina-principal{
+    gap: 20px;
+    padding: 40px;
+}
+
+.descricao-maquina{
+    border: 1px solid var(--borda-descricao-maquininha);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 60%;
+}
+
+.descricao-maquina p{
+    line-height: .9em;
+}
+
+.right{
 }
