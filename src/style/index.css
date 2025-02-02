@@ -6,6 +6,8 @@
     --navbar-text-color: #38bd49;
     --navbar-link-background: #fff;
     --home-background: #00d700;
+    --home-text-color: #c1ff72;
+    --home-text-color2: #f7fdf3;
 }
 
 header {
@@ -35,6 +37,20 @@ header {
 
 #home {
     background-color: var(--home-background);
-    padding: 1rem;
+    margin: 0;
     text-align: center;
+    gap: 20px;
+}
+
+#home h1 {
+    color: var(--home-text-color);
+    font-size: 2rem;
+}
+
+#home h3 {
+    color: var(--home-text-color2);
+}
+
+#home button{
+    width: 200px
 }
