@@ -2,6 +2,7 @@
 
 /* Styles for the index page */
 :root {
+    --body-background: #eff4f8;
     --navbar-background: #00af55;
     --navbar-text-color: #38bd49;
     --navbar-link-background: #fff;
@@ -20,6 +21,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--body-background);
 }
 
 header {
@@ -90,6 +96,7 @@ header {
 .container-maquina-principal{
     gap: 20px;
     padding: 40px;
+    background-color: var(--melhores-taxas-background);
 }
 
 .descricao-maquina{
@@ -101,8 +108,11 @@ header {
 }
 
 .descricao-maquina p{
-    line-height: .9em;
+    font-size: .71em;
 }
 
 .right{
+    background-color: var(--background-div-right);
+    border-radius: 50%;
+    
 }

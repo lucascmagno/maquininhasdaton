@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* Styles for the index page */
+@media (max-width: 768px) {
+    .container-maquina-principal{
+        flex-wrap: wrap;
+    }
+}
