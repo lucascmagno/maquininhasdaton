@@ -15,6 +15,7 @@
     --background-taxa-promocional: #00af55;
     --background-div-right: #028043;
     --background-maquininhas: #00d700;
+    --background-item-duvida: #00d700;
 
 }
 
@@ -141,5 +142,17 @@ main{
 }
 
 #maquininhas-container .card{
+    gap: 20px;
+}
+
+#duvidas{
+    padding: 30px 0;
+}
+
+.duvida-titulo{
+    background-color: var(--background-item-duvida);
+}
+
+#accordionExample{
     gap: 20px;
 }
