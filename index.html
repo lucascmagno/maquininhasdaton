@@ -13,8 +13,8 @@
     <title>Maquininhas Da Ton</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
+    <header class="position-fixed z-3 w-100">
+        <nav class="navbar navbar-expand-lg position-sticky">
             <div class="container-fluid d-flex">
               <div class="w-50"><a class="navbar-brand" href="#"><img width="50" src="./src/util/images/parceiroTonLogo.webp" alt=""></a></div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +23,10 @@
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">HOME</a>
+                    <a class="nav-link" aria-current="page" href="#home">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">MAQUININHAS</a>
+                    <a class="nav-link" href="#maquininhas-container">MAQUININHAS</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">PLANOS E TAXAS</a>
@@ -51,7 +51,7 @@
                 <h1>MAQUININHA TON</h1>
                 <h3>Até 60% de desconto nas maquinas</h3>
 
-                <button type="button" class="btn btn-warning btn-lg text-light text-uppercase">Adquira Já!</button>
+                <a href="#maquininhas-container" class="btn btn-warning text-light text-uppercase fs-5 fw-bold adquira-inicial" target="_self">Adquira Já</a>
             </div>
             <div class="banner">
                 <img class="img-fluid" src="./src/util/images/maquininhasPrincipal.png" alt="banner">

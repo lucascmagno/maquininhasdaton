@@ -54,6 +54,9 @@ header {
     justify-content: space-between;
 }
 
+main{
+    padding-top: 90px;
+}
 #home {
     background-color: var(--home-background);
     text-align: center;
@@ -70,8 +73,9 @@ header {
     color: var(--home-text-color2);
 }
 
-#home button{
-    width: 200px
+#home .adquira-inicial{
+    width: 200px;
+    padding: 20px;
 }
 
 #melhores-taxas {
