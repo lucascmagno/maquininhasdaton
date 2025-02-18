@@ -14,6 +14,7 @@
     --melhores-taxas-background: #eff4f8;
     --background-taxa-promocional: #00af55;
     --background-div-right: #028043;
+    --background-maquininhas: #00d700;
 
 }
 
@@ -108,11 +109,33 @@ header {
 }
 
 .descricao-maquina p{
-    font-size: .71em;
+    margin-bottom: 10px;
+    font-size: .9em;
 }
 
 .right{
     background-color: var(--background-div-right);
     border-radius: 50%;
     
+}
+
+#maquininhas-container{
+    background-color: var(--background-maquininhas);
+    padding: 20px;
+    gap: 20px;
+}
+
+.card-body-maquina{
+    height: 400px;
+    border: 2px solid var(--borda-descricao-maquininha);
+    border-radius: 3px;
+}
+
+.card-body-maquina p{
+    margin-bottom: 10px;
+    font-size: .9em;
+}
+
+#maquininhas-container .card{
+    gap: 20px;
 }
